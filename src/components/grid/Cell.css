@@ -1,0 +1,12 @@
+.cell {
+  /* font-size: calc(2vw + 4px); */
+  padding: calc(2vmin - 4px);
+  border: 1px solid;
+  vertical-align: middle;
+  overflow-wrap: break-word;
+}
+
+.cell.stamped {
+  @apply bg-indigo-600;
+  @apply text-white;
+}
